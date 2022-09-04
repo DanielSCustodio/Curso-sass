@@ -2,14 +2,24 @@
   padding: 0;
   margin: 0;
   background-color: #363636;
+  color: rgba(254, 254, 254, 0.6666666667);
 }
 
-div {
+div, main {
+  background-color: #cd4b05;
   padding: 1rem;
-  margin: 0;
+  margin: 1rem;
 }
-div p {
-  color: #c8d62e;
+div p, div h2, main p, main h2 {
+  color: #d64d2e;
+  background-color: #131414;
+}
+
+main p {
+  color: #a52626;
+}
+main .p-blue {
+  color: #1d6bca;
 }
 
 /*# sourceMappingURL=style.css.map */
