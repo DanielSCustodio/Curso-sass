@@ -82,4 +82,22 @@ a:hover {
   color: #5f0505;
 }
 
+.sub-title, .title {
+  border-bottom: 2px dotted #252523;
+  padding: 10px;
+  background-color: #1b0432;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 30px;
+  color: #b7acac;
+}
+
+.sub-title {
+  font-size: 25px;
+  color: #fdfcff;
+}
+
 /*# sourceMappingURL=style.css.map */
