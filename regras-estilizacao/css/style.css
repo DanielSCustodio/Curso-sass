@@ -11,7 +11,7 @@ div, main {
   margin: 1rem;
 }
 div p, div h2, main p, main h2 {
-  color: #d64d2e;
+  color: #2ed62e;
   background-color: #131414;
 }
 
@@ -20,6 +20,14 @@ main p {
 }
 main .p-blue {
   color: #1d6bca;
+}
+
+li {
+  color: #c616c3;
+}
+
+ol > li {
+  color: #c6ab16;
 }
 
 /*# sourceMappingURL=style.css.map */
