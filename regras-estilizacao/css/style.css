@@ -1,18 +1,15 @@
-* {
-  padding: 0;
-  margin: 0;
+html {
   background-color: #363636;
   color: rgba(254, 254, 254, 0.6666666667);
 }
 
 div, main {
-  background-color: #cd4b05;
-  padding: 1rem;
-  margin: 1rem;
+  border: 1px solid #cd4b05;
+  background-color: rgba(205, 75, 5, 0.337254902);
+  margin: 1rem 0;
 }
 div p, div h2, main p, main h2 {
   color: #2ed62e;
-  background-color: #131414;
 }
 
 main p {
@@ -28,6 +25,29 @@ li {
 
 ol > li {
   color: #c6ab16;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid #cd4b05;
+  color: #000222;
+  transform: 0.5s;
+  display: block;
+  width: 150px;
+  text-align: center;
+}
+a:hover {
+  background-color: #ef5401;
+  color: white;
+}
+
+.container {
+  background-color: #5c5957;
+  padding: 20px;
+}
+.container-content {
+  color: purple;
 }
 
 /*# sourceMappingURL=style.css.map */
