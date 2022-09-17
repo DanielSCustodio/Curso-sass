@@ -18,10 +18,14 @@ a {
 
 div {
   border: 5px dotted #71a610;
+  padding: 0.5rem;
+  border-radius: 50px;
 }
 div p {
   background-color: #9cd529;
   color: #71a610;
+  border-radius: 50px;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
