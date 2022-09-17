@@ -13,17 +13,19 @@ h2
   @include green
 
 .esp-menor
-  @include spacing(10px, 10px, #258524)
+  @include spacing(10px, 10px)
   @include custom-border(solid, #a6d1a5)
+  @include colors()
 
 .esp-medio
-  @include spacing(15px, 15px, #11590f)
+  @include spacing(15px, 15px)
   @include custom-border(groove, #4a6d4a, 10px)
-
+  @include colors($bg: #c0ba11, $font:#751775)
 
 .esp-maior
-  @include spacing(25px, 25px, #031e03 )
+  @include spacing(25px, 25px)
   @include custom-border(dashed, #898046)
+  @include colors(#c4af10, #680468)
 
 
 

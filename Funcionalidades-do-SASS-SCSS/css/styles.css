@@ -40,22 +40,25 @@ h2:hover {
 .esp-menor {
   padding: 10px;
   margin: 10px;
-  background-color: #258524;
   border: 1px solid #a6d1a5;
+  color: #d2d3d0;
+  background-color: #28125b;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
-  background-color: #11590f;
   border: 10px groove #4a6d4a;
+  color: #751775;
+  background-color: #c0ba11;
 }
 
 .esp-maior {
   padding: 25px;
   margin: 25px;
-  background-color: #031e03;
   border: 1px dashed #898046;
+  color: #c4af10;
+  background-color: #680468;
 }
 
 /*# sourceMappingURL=styles.css.map */

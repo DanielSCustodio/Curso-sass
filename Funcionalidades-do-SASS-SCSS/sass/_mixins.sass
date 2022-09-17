@@ -12,12 +12,15 @@
   border-color: #41a30f
   color: #79c76b
 
-@mixin spacing($p, $m, $b)
+@mixin spacing($p, $m)
   padding: $p
   margin: $m
-  background-color: $b
 
 @mixin custom-border($style, $color, $width: 1px)
   border: $width $style $color
+
+@mixin colors($font:#d2d3d0, $bg:#28125b)
+  color: $font
+  background-color: $bg
 
 
