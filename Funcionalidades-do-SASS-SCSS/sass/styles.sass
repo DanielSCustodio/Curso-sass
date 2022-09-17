@@ -1,6 +1,7 @@
 @import 'variables'
 @import 'button'
 @import 'mixins'
+@import 'plugins'
 
 body
   background-color: #323232
@@ -16,11 +17,14 @@ h2
   @include spacing(10px, 10px)
   @include custom-border(solid, #a6d1a5)
   @include colors()
+  @extend %font-pattern
 
 .esp-medio
   @include spacing(15px, 15px)
   @include custom-border(groove, #4a6d4a, 10px)
   @include colors($bg: #c0ba11, $font:#751775)
+  @extend %font-pattern
+
 
 .esp-maior
   @include spacing(25px, 25px)
