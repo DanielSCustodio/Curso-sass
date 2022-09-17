@@ -22,7 +22,6 @@ body {
 .p-esp:hover {
   background-color: #01efaf;
   color: #696565;
-  padding: 1rem;
 }
 
 h2 {
@@ -36,7 +35,24 @@ h2 {
 h2:hover {
   background-color: #01efaf;
   color: #696565;
-  padding: 1rem;
+}
+
+.esp-menor {
+  padding: 10px;
+  margin: 10px;
+  background-color: #258524;
+}
+
+.esp-medio {
+  padding: 15px;
+  margin: 15px;
+  background-color: #11590f;
+}
+
+.esp-maior {
+  padding: 25px;
+  margin: 25px;
+  background-color: #031e03;
 }
 
 /*# sourceMappingURL=styles.css.map */
