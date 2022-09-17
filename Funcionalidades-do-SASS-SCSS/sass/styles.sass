@@ -2,6 +2,7 @@
 @import 'button'
 @import 'mixins'
 @import 'plugins'
+@import 'function'
 
 body
   background-color: #323232
@@ -39,5 +40,12 @@ h2
   width: 50rem * (2/2)
   @include  custom-border(groove, #498716, 5px)
 
+.small-font
+  font-size: 9px
+  color: text-color(9)
+
+.big-font
+  font-size: 15px
+  color: text-color(15px)
 
 

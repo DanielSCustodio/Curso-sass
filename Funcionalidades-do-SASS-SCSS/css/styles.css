@@ -77,4 +77,14 @@ h2:hover {
   border: 5px groove #498716;
 }
 
+.small-font {
+  font-size: 9px;
+  color: #c13626;
+}
+
+.big-font {
+  font-size: 15px;
+  color: #498716;
+}
+
 /*# sourceMappingURL=styles.css.map */
