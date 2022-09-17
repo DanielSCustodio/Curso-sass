@@ -1,5 +1,6 @@
 $text-color: #29d5c1
 $bg-color: #9cd529
+$border: 1px solid $bg-color
   
 body
   background-color: #363636
@@ -7,6 +8,7 @@ body
 
 h1
   color: $text-color
+  border: $border
 
 p
   color: $text-color
@@ -15,8 +17,12 @@ a
   color: $text-color
 
 div
+  $font-color: #71a610
+  $border: 5px dotted $font-color
+
+  border: $border
+
   p
-    $font-color: #323232
     background-color: $bg-color
     color: $font-color
 

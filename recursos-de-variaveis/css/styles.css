@@ -5,6 +5,7 @@ body {
 
 h1 {
   color: #29d5c1;
+  border: 1px solid #9cd529;
 }
 
 p {
@@ -15,9 +16,12 @@ a {
   color: #29d5c1;
 }
 
+div {
+  border: 5px dotted #71a610;
+}
 div p {
   background-color: #9cd529;
-  color: #323232;
+  color: #71a610;
 }
 
 /*# sourceMappingURL=styles.css.map */
