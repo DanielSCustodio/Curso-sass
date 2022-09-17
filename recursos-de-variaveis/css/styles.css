@@ -4,15 +4,20 @@ body {
 }
 
 h1 {
-  color: #3ad529;
+  color: #29d5c1;
 }
 
 p {
-  color: #3ad529;
+  color: #29d5c1;
 }
 
 a {
-  color: #3ad529;
+  color: #29d5c1;
+}
+
+div p {
+  background-color: #9cd529;
+  color: #323232;
 }
 
 /*# sourceMappingURL=styles.css.map */
