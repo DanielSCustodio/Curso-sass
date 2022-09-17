@@ -41,18 +41,21 @@ h2:hover {
   padding: 10px;
   margin: 10px;
   background-color: #258524;
+  border: 1px solid #a6d1a5;
 }
 
 .esp-medio {
   padding: 15px;
   margin: 15px;
   background-color: #11590f;
+  border: 10px groove #4a6d4a;
 }
 
 .esp-maior {
   padding: 25px;
   margin: 25px;
   background-color: #031e03;
+  border: 1px dashed #898046;
 }
 
 /*# sourceMappingURL=styles.css.map */
