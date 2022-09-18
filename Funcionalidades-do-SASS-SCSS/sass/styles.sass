@@ -53,15 +53,21 @@ h2
 .section-one
   border: custom-border-function()
   width: custom-width()
-
+  
 .section-two
   border: custom-border-function(2)
   width: custom-width($width: 2100px)
 
-
 .section-three
   border: custom-border-function(3)
-  width: custom-width($divider: 5)
+  width: custom-width($divider: 3)
+
+$fonts: 50px, 40px, 30px
+
+@each $font in $fonts
+  .title-#{$font}
+    font-size: $font
+    line-height: $font * 1.2
 
 
 
