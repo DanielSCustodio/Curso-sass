@@ -89,14 +89,18 @@ h2:hover {
 
 .section-one {
   border: 1px solid #f936c9;
+  font-size: 20px;
+  width: 250px;
 }
 
 .section-two {
   border: 2px groove #7a055d;
+  width: 500px;
 }
 
 .section-three {
   border: 3px dotted #cb9415;
+  width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */
