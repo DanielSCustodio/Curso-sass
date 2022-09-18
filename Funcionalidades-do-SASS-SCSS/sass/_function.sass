@@ -10,6 +10,9 @@
 @function custom-border-function($variation: 1)
   $border: none
 
+  @if $variation > 3
+    @error "O argumento da função deve ser 1,2 ou 3."
+
   @if $variation == 1
     $border: 1px solid #f936c9
   @else if $variation == 2
