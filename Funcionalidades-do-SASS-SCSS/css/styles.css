@@ -117,4 +117,22 @@ h2:hover {
   line-height: 36px;
 }
 
+.p-1 {
+  color: #1a7695;
+  background: #141313;
+  padding: 1rem;
+}
+
+.p-2 {
+  color: #821a95;
+  background: #141313;
+  padding: 1rem;
+}
+
+.p-3 {
+  color: #4b951a;
+  background: #141313;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

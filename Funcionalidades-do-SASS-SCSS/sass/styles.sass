@@ -69,5 +69,15 @@ $fonts: 50px, 40px, 30px
     font-size: $font
     line-height: $font * 1.2
 
+@for $i from 1 through 3
+  .p-#{$i}
+    @if $i == 1
+      color: #1a7695
+    @else if $i == 2
+      color: #821a95
+    @else if $i == 3
+      color: #4b951a
+    background: #141313
+    padding: 1rem
 
 
