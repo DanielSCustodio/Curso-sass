@@ -23,4 +23,7 @@
   @return $border
 
 @function custom-width($width: 500px, $divider: 2)
+  $limit : 2000px
+  @if $width > $limit
+    @warn "O Número máximo da largura é #{$limit}"
   @return $width/$divider
