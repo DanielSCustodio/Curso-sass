@@ -87,4 +87,16 @@ h2:hover {
   color: #498716;
 }
 
+.section-one {
+  border: 1px solid #f936c9;
+}
+
+.section-two {
+  border: 2px groove #7a055d;
+}
+
+.section-three {
+  border: 3px dotted #cb9415;
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -6,3 +6,15 @@
     $color: #c13626
   
   @return $color
+
+@function custom-border-function($variation: 1)
+  $border: none
+
+  @if $variation == 1
+    $border: 1px solid #f936c9
+  @else if $variation == 2
+    $border: 2px groove #7a055d
+  @else
+    $border: 3px dotted #cb9415
+
+  @return $border
