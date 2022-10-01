@@ -38,6 +38,11 @@ p {
   color: #9cd529;
 }
 
+button {
+  border: 0;
+  cursor: pointer;
+}
+
 .navbar ul {
   display: flex;
 }
@@ -48,7 +53,21 @@ p {
   transition: 0.8s;
 }
 .navbar li a:hover {
-  color: #f66161;
+  color: #6bf661;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  display: block;
+  margin: 15px auto;
+  transition: 0.8s;
+}
+.btn-primary {
+  background-color: #aeabab;
+}
+.btn-secondary {
+  background-color: #9cd529;
 }
 
 /*# sourceMappingURL=main.css.map */
