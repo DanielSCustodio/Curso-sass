@@ -1,10 +1,45 @@
-h1 {
-  background-color: #50bf10;
-  padding: 2rem;
-  color: #3e423b;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #313131;
+}
+
+header {
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
   text-align: center;
-  border: 10px double #3e3e3e;
-  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: #9cd529;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0 1rem;
+}
+
+li + li {
+  margin-left: 5rem;
+}
+
+h1, h2 {
+  color: #aeabab;
+}
+
+p {
+  color: #9cd529;
 }
 
 /*# sourceMappingURL=main.css.map */
