@@ -1,0 +1,14 @@
+@use '../1-base/variables'
+
+.navbar
+
+  ul
+    display: flex
+  li
+    &+li
+      margin-left: 5rem
+
+    a
+      transition: .8s
+    a:hover
+      color: variables.$hover-primary

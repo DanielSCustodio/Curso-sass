@@ -13,6 +13,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 20vh;
+  padding: 0 1rem;
 }
 
 main {
@@ -26,12 +28,6 @@ a {
 
 ul {
   list-style: none;
-  display: flex;
-  margin: 0 1rem;
-}
-
-li + li {
-  margin-left: 5rem;
 }
 
 h1, h2 {
@@ -40,6 +36,19 @@ h1, h2 {
 
 p {
   color: #9cd529;
+}
+
+.navbar ul {
+  display: flex;
+}
+.navbar li + li {
+  margin-left: 5rem;
+}
+.navbar li a {
+  transition: 0.8s;
+}
+.navbar li a:hover {
+  color: #f66161;
 }
 
 /*# sourceMappingURL=main.css.map */
