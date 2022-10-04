@@ -1,0 +1,17 @@
+@use 'sass:color'
+$new-color: color.adjust(#6b717f, $red:25, $blue:50, $green:50)
+$background: color.scale($new-color, $lightness: -80% )
+
+@debug color.green($new-color)
+  
+body
+  background-color: #363636
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+.color
+  color: $new-color
+  background-color: $background
+
+.invert
+  color: color.invert($new-color)
+  background-color: color.invert($background)

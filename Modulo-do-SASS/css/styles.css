@@ -1,0 +1,16 @@
+body {
+  background-color: #363636;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.color {
+  color: #84a3b1;
+  background-color: #182226;
+}
+
+.invert {
+  color: #7b5c4e;
+  background-color: #e7ddd9;
+}
+
+/*# sourceMappingURL=styles.css.map */
