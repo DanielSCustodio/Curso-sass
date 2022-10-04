@@ -1,3 +1,4 @@
+@use 'sass:map'
 $a: 10
 $str:"Roboto"
 $strTwo: Roboto
@@ -5,6 +6,7 @@ $name-font:Open
 $main-font: Sans
 $secondary-font:Test
 $list: 10,20,30
+$font-weights:("regular":400, "bold":700, "black":900)
 
 @debug $a +10rem
 @debug $str == $strTwo
@@ -21,8 +23,13 @@ $list: 10,20,30
 @each $font in $list
   .p-#{$font}
     font-size: $font+"px"
+
+@each $key, $value in $font-weights
+  .p-#{$key}
+    font-weight: $value
   
 body
   background-color: #363636
   font-family: #{$main-font} #{$secondary-font}
   color: hsl(220,90%,17%)
+  font-weight: map.get($font-weights,"black")

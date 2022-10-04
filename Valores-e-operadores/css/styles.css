@@ -10,10 +10,23 @@
   font-size: "30px";
 }
 
+.p-regular {
+  font-weight: 400;
+}
+
+.p-bold {
+  font-weight: 700;
+}
+
+.p-black {
+  font-weight: 900;
+}
+
 body {
   background-color: #363636;
   font-family: Sans Test;
   color: hsl(220deg, 90%, 17%);
+  font-weight: 900;
 }
 
 /*# sourceMappingURL=styles.css.map */
