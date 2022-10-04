@@ -4,6 +4,7 @@ $strTwo: Roboto
 $name-font:Open
 $main-font: Sans
 $secondary-font:Test
+$list: 10,20,30
 
 @debug $a +10rem
 @debug $str == $strTwo
@@ -13,6 +14,13 @@ $secondary-font:Test
 @debug rgb(201,50,24)
 @debug rgba(201,50,24, 0.5)
 @debug hsl(220,90%,17%)
+
+@each $var in $list
+  @debug $var +10
+
+@each $font in $list
+  .p-#{$font}
+    font-size: $font+"px"
   
 body
   background-color: #363636
