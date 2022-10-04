@@ -1,6 +1,15 @@
 $a: 10
+$str:"Roboto"
+$strTwo: Roboto
+$name-font:Open
+$main-font: Sans
+$secondary-font:Test
 
 @debug $a +10rem
+@debug $str == $strTwo
+@debug $name-font + " " +$main-font
+@debug $name-font + " " +$secondary-font
   
 body
   background-color: #363636
+  font-family: #{$main-font} #{$secondary-font}
