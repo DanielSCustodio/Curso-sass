@@ -9,7 +9,12 @@ $secondary-font:Test
 @debug $str == $strTwo
 @debug $name-font + " " +$main-font
 @debug $name-font + " " +$secondary-font
+@debug #325895
+@debug rgb(201,50,24)
+@debug rgba(201,50,24, 0.5)
+@debug hsl(220,90%,17%)
   
 body
   background-color: #363636
   font-family: #{$main-font} #{$secondary-font}
+  color: hsl(220,90%,17%)
