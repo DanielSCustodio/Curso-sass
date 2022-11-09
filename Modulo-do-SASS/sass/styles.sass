@@ -1,4 +1,5 @@
 @use 'sass:color'
+@use 'sass:list'
 $new-color: color.adjust(#6b717f, $red:25, $blue:50, $green:50)
 $background: color.scale($new-color, $lightness: -80% )
 $mixBg: color.mix(#46943f, #c97e0f)
@@ -34,3 +35,22 @@ body
     color: lighten(#952563, 20%)
     background-color: desaturate(#952563,50% )
     cursor: pointer
+
+$list: 10px, 20px, 30px
+$list2: 40px, 50px, 60px
+
+$list: list.append($list,40px)
+
+@debug $list
+@debug list.index($list, 40px)
+
+@if list.index($list, 10px) == 1
+  $list: list.append($list, 50px)
+
+@debug $list
+
+$list3: list.join($list, $list2)
+@debug $list3
+
+@debug list.length($list3)
+@debug list.nth($list3, 5)
