@@ -33,4 +33,12 @@ body {
   cursor: pointer;
 }
 
+h1 {
+  border: 2px solid purple;
+}
+
+h1 {
+  transition: 1.5s;
+}
+
 /*# sourceMappingURL=styles.css.map */
