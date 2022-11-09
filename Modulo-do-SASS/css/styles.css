@@ -13,4 +13,24 @@ body {
   background-color: #e7ddd9;
 }
 
+.mix {
+  background-color: #888927;
+  color: #84a3b1;
+}
+
+.desaturate {
+  color: #bf4040;
+}
+
+.lighten {
+  color: #952563;
+  background-color: white;
+  padding: 1rem;
+}
+.lighten:hover {
+  color: #d34d97;
+  background-color: #67545e;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */

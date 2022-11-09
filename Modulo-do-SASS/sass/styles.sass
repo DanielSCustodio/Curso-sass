@@ -1,6 +1,8 @@
 @use 'sass:color'
 $new-color: color.adjust(#6b717f, $red:25, $blue:50, $green:50)
 $background: color.scale($new-color, $lightness: -80% )
+$mixBg: color.mix(#46943f, #c97e0f)
+$colorDesaturate: desaturate(red,50%)
 
 @debug color.green($new-color)
   
@@ -15,3 +17,20 @@ body
 .invert
   color: color.invert($new-color)
   background-color: color.invert($background)
+
+.mix
+  background-color: $mixBg
+  color: $new-color
+
+.desaturate
+  color: $colorDesaturate
+
+.lighten
+  color: #952563
+  background-color: white
+  padding: 1rem
+
+  &:hover
+    color: lighten(#952563, 20%)
+    background-color: desaturate(#952563,50% )
+    cursor: pointer
