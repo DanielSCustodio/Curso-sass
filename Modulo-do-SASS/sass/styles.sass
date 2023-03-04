@@ -3,6 +3,7 @@
 @use 'sass:map'
 @use 'sass:math'
 @use 'sass:meta'
+@use 'sass:string'
 
 $new-color: color.adjust(#6b717f, $red:25, $blue:50, $green:50)
 $background: color.scale($new-color, $lightness: -80% )
@@ -95,3 +96,12 @@ $a: -10,2,3,8
 @debug meta.mixin-exists('test') //Verifica se o mixig existe
 @debug meta.type-of($a) //Verifica o tipo
 @debug meta.type-of(#202568) //Verifica o tipo
+
+
+$frase:"O rato roeu a roupa do rei de Roma"
+
+@debug string.index($frase, 'rato') //Encontra o indice da string
+@debug string.length($frase) // Retorna o tamanho da string
+@debug string.to-lower-case($frase) 
+@debug string.to-upper-case($frase) 
+@debug string.unique-id() //gera um id único
