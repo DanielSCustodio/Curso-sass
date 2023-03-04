@@ -2,6 +2,7 @@
 @use 'sass:list'
 @use 'sass:map'
 @use 'sass:math'
+@use 'sass:meta'
 
 $new-color: color.adjust(#6b717f, $red:25, $blue:50, $green:50)
 $background: color.scale($new-color, $lightness: -80% )
@@ -78,8 +79,19 @@ h1
 $pi: math.$pi
 $a: -10,2,3,8
 
+@mixin test()
+  margin: 0
+  padding: 0
+  
+
 @debug math.ceil($pi)
 @debug math.floor($pi)
 @debug math.max($a...)
 @debug math.min($a...)
 @debug math.floor(math.random() *10) // Número aleatóio de 1 a 10
+
+@debug meta.global-variable-exists('a') //Verifica se a variavel $a existe
+@debug meta.inspect($new-color) //imprime os valores de uma variável
+@debug meta.mixin-exists('test') //Verifica se o mixig existe
+@debug meta.type-of($a) //Verifica o tipo
+@debug meta.type-of(#202568) //Verifica o tipo
